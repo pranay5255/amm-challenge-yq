@@ -280,6 +280,6 @@ contract Strategy is AMMStrategyBase {
     }
 
     function getName() external pure override returns (string memory) {
-        return "yq";
+        return "expMomentum";
     }
 }
